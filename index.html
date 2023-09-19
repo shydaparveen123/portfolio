@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio-Easy </title>
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://kit.fontawesome.com/e5bfb5549f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="shyda.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm Shyda<span> Parveen</span><br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------- about------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="blazer pic.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Shyda Parveen, a recent graduate in Information Technology with a fervent passion for coding and technology.<br> My educational background has equipped me with a solid foundation, but it's my insatiable curiosity and desire for growth that truly define me.
+
+                        I find joy in writing code, exploring new technologies, and embracing challenges that stretch my abilities.<br> What excites me most is the ever-evolving nature of the tech world, and I am committed to staying at the forefront of this dynamic field.
+                        
+                        My future goal is crystal clear: to become a recognized expert in Information Technology. <br> I am driven by the belief that continuous learning and hands-on experience are the keys to success in this industry. Each line of code I write, every project I tackle, and every problem I solve is a step towards achieving that goal.
+                        
+                        Join me on this journey of constant improvement and innovation as I strive to make a significant impact in the world of Information Technology. Together, we'll navigate the exciting challenges and opportunities this field has to offer.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links " onclick="opentab('project')">Project</p>
+                        <p class="tab-links " onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents  active-tab" id="skills">
+                        <ul>
+                            <li><span>Language</span><br>C<br>Python<br>Oops Concepts<br>Data structure</li>
+                            <li><span>Front end</span><br>HTML<br>CSS<br>JAvA SCRIPT</li>
+                            <li><span>DataBase</span><br>MySql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="project">
+                        <ul>
+                            <li><span>project 1</span><br>facial recognition system<br></li>
+                            <li><span>project 2</span><br>fake news prediction<br></li>
+                            <li><span>project 3</span><br>Portfolio using html, css, java script<br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelors of Technology</span><br>Oriental Institute of Science and
+                                Technology<br>2019-2023</li>
+                            <li><span>Higher Secondary</span><br>Mahant Hanuman Sharan College<br>2018-2019</li>
+                            <li><span>Secondary School</span><br>Patliputra Central School Krisha Vihar<br>2017-2018
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------services------>
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis iure ducimus optio rem delectus
+                        veniam saepe cupiditate repudiandae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>ui/ux</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis iure ducimus optio rem delectus
+                        veniam saepe cupiditate repudiandae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2> app design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Officiis iure ducimus optio rem delectus
+                        veniam saepe cupiditate repudiandae.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------portfolio-------------->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="facial rec2.png">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dicta ut et dignissimos
+                            assumenda at a nulla dolorem aliquid dolore?</p>
+                        <a href="#">
+                            <li class="fas fa-external-link-alt"></li>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Fake-News-Detection-using-Machine-Learning.jpg">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>Fake news on different platforms is spreading widely and is a matter of serious concern,  
+                            A lot of research is already going on focused on the classification of fake news.</p>
+                        <a href="#">
+                            <li class="fas fa-external-link-alt"></li>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot (7).png">
+                    <div class="layer">
+                        <h3>Social media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dicta ut et dignissimos
+                            assumenda at a nulla dolorem aliquid dolore?</p>
+                        <a href="#">
+                            <li class="fas fa-external-link-alt"></li>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--------------------Contact----------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>shydaparveen67@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+91-8207875259</p>
+                    <div class="Social-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""><i class="fab fa-twitter-square"></i></a>
+                    </div>
+                    <a href="Shyda Parveen_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your-Name" required>
+                        <input type="email" name="Email" placeholder="Your-email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</Button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ shyda.Made with <i class="fas fa-heart"></i> by easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzbwfypfj_kZusDLCoXVQdj5W_HavNyaFlQupSlytP2PbdnfkLnZiLUVlZD7E9IW1cU/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
